@@ -1,7 +1,8 @@
-*{
+* {
   box-sizing: border-box;
 }
-body{
+
+body {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   align-items: center;
@@ -10,18 +11,19 @@ body{
   overflow: hidden;
   margin: 0;
 }
-.bg{
-  background: url('./images/IMG20220806160816.jpg') no-repeat
-  center center/cover;
+
+.bg {
+  background: url("./images/IMG20220806160816.jpg") no-repeat center center/cover;
   position: absolute;
   top: -30px;
   left: -30px;
-  width:calc(100vw + 60px) ;
+  width: calc(100vw + 60px);
   height: calc(100vh + 60px);
   z-index: -1;
-   filter: blur(0px);
+  filter: blur(0);
 }
-.loading-text{
+
+.loading-text {
   font-size: 50px;
   color: #fff;
 }
